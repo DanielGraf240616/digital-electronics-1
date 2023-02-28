@@ -7,10 +7,17 @@
 ```vhdl
 architecture Behavioral of mux_3bit_4to1 is
 begin
+  p_mux : process(a,b,c,d,sel)
+  begin
+      case sel is
+        when "00" => f <= a ;
+        when "01" => f <= b ;
+        when "10" => f <= c ;
+        when others => f <= d;
+      end case;
+  end process p_mux;
 
-    -- WRITE YOUR CODE HERE
-
-end architecture Behavioral;
+end architecture behavioral;
 ```
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
