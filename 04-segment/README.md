@@ -1,4 +1,4 @@
-# Lab 4: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 4: Daniel Graf
 
 ### LED(7:4) indicators
 
