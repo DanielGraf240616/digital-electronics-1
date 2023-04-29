@@ -8,6 +8,9 @@ Lukáš Lipenský - QA, tb
 
 ### Hardware description of demo application
 
+### Software description
+[Source files](MCT_project/DE1_project_MCT/DE1_project_MCT.srcs/sources_1/new)
+[Testbench files](MCT_project/DE1_project_MCT/DE1_project_MCT.srcs/sim_1/new)
 ### Component(s) simulations
 Simulation of the MCT module, letter A represented by **.-**
 ![](mct_a.png)
