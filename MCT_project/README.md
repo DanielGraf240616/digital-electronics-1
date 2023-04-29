@@ -29,7 +29,7 @@ User inputs desired letter in 5 bit binary form by toggling switches (up- 1, dow
 Input & output chart
  | **Number** | **Letter** | **Binary input** | **Morse code output** |
  | :-: | :-: | :-: | :-: |
-   | 0 | 00000 | A |** . - **|
+   | 0 | 00000 | A |**. -**|
    | 1 | 00001 | B | - . . . |
    | 2 | 00010 | C | - . - . |
    | 3 | 00011 | D | - . . |
