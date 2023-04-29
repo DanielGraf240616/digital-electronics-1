@@ -11,6 +11,9 @@ Lukáš Lipenský - QA, tb
 ### Component(s) simulations
 Simulation of MCT module, letter A represented by **.-**
 ![](mct_a.png)
+Simulation of MCT module, letter K represented by **-.-**
+![](mct_k.png)
+
 ### Instructions
 
 ### References
