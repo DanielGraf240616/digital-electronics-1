@@ -8,7 +8,8 @@ Lukáš Lipenský - QA, tb
 ### Hardware description of demo application
 
 ### Component(s) simulations
-
+Simulation of MCT module, letter A
+![Simulace písmene A, reprezentace .-](mct_a.png)
 ### Instructions
 
 ### References
