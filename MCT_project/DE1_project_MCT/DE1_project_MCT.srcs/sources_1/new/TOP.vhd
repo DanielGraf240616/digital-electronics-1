@@ -46,7 +46,7 @@ Port map(
 rst   =>BTNC,
 bin   => SW,
 clk   => CLK100MHZ,
-morse =>  sig_morse --morse
+morse =>  sig_morse 
 
 
 );
