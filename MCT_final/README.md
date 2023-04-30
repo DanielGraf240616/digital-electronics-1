@@ -16,14 +16,14 @@ Lets define term "cycle". One cycle means a period of time where the (tick=clock
 [Source files](https://github.com/DanielGraf240616/digital-electronics-1/tree/main/MCT_project/mct_de1/mct/mct.srcs/sources_1/new)
 [Testbench files](https://github.com/DanielGraf240616/digital-electronics-1/tree/main/MCT_project/mct_de1/mct/mct.srcs/sim_1/new)
 ### Component(s) simulations
-## Simulation of the MCT module, letter A represented by **.-**
+# Simulation of the MCT module, letter A represented by **.-**
 ![](mct_a.png)
-## Simulation of the MCT module, letter K represented by **-.-**
+# Simulation of the MCT module, letter K represented by **-.-**
 ![](mct_k.png)
 
-## Simulation of the TOP module, letter A representd by **.-**
+# Simulation of the TOP module, letter A representd by **.-**
 ![](top_a.png)
-## Simulation of the TOP module, dot representd by **.-.-.-**
+# Simulation of the TOP module, dot representd by **.-.-.-**
 ![](top_tecka.png)
 ### Instructions
 The MCT is operated by 5 switches on far right and the middle BTNC button.
