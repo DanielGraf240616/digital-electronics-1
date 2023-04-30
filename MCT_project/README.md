@@ -9,8 +9,8 @@ Lukáš Lipenský - top, qa
 ### Hardware description of demo application
 
 ### Software description
-[Source files](https://github.com/DanielGraf240616/digital-electronics-1/tree/main/MCT_project/DE1_project_MCT/DE1_project_MCT.srcs/sources_1/new)
-[Testbench files](https://github.com/DanielGraf240616/digital-electronics-1/tree/main/MCT_project/DE1_project_MCT/DE1_project_MCT.srcs/sim_1/new)
+[Source files](https://github.com/DanielGraf240616/digital-electronics-1/tree/main/MCT_project/mct_de1/mct/mct.srcs/sources_1/new)
+[Testbench files](https://github.com/DanielGraf240616/digital-electronics-1/tree/main/MCT_project/mct_de1/mct/mct.srcs/sim_1/new)
 ### Component(s) simulations
 Simulation of the MCT module, letter A represented by **.-**
 ![](mct_a.png)
