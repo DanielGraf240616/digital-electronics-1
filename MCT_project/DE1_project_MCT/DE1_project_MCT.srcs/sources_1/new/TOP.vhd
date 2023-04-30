@@ -26,12 +26,12 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity Top is
     Port ( 
-    SW        : in STD_LOGIC_VECTOR (4 downto 0);   --Switches representing binary input of letters
+    SW         : in STD_LOGIC_VECTOR (4 downto 0);   --Switches representing binary input of letters
     BTNC       : in STD_LOGIC;                      --Reset button
-    CLK100MHZ : in STD_LOGIC;                       --FPGAs 100 MHz internal clock signal
+    CLK100MHZ  : in STD_LOGIC;                       --FPGAs 100 MHz internal clock signal
     --morse     : out STD_LOGIC;                     
-    LED     : out STD_LOGIC;                        --Output of LED signal
-    MORS    : out STD_LOGIC                         --Output of morse pin signal
+    LED        : out STD_LOGIC;                        --Output of LED signal
+    MORS       : out STD_LOGIC                         --Output of morse pin signal
     );                     
 end Top;
 
