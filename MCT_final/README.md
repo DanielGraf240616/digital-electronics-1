@@ -70,3 +70,4 @@ Input & output chart
    
    
 ### References
+https://vhdlwhiz.com/ & its YouTube courses
