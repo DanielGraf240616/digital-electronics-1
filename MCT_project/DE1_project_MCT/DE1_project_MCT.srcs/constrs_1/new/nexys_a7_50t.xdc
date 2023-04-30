@@ -83,7 +83,7 @@ set_property -dict { PACKAGE_PIN N17   IOSTANDARD LVCMOS33 } [get_ports { BTNC }
 
 ##Pmod Headers
 ##Pmod Header JA
-set_property -dict { PACKAGE_PIN C17   IOSTANDARD LVCMOS33 } [get_ports { MORS }]; #IO_L20N_T3_A19_15 Sch=ja[1]
+#set_property -dict { PACKAGE_PIN C17   IOSTANDARD LVCMOS33 } [get_ports { MORS }]; #IO_L20N_T3_A19_15 Sch=ja[1]
 #set_property -dict { PACKAGE_PIN D18   IOSTANDARD LVCMOS33 } [get_ports { JA[2] }]; #IO_L21N_T3_DQS_A18_15 Sch=ja[2]
 #set_property -dict { PACKAGE_PIN E18   IOSTANDARD LVCMOS33 } [get_ports { JA[3] }]; #IO_L21P_T3_DQS_15 Sch=ja[3]
 #set_property -dict { PACKAGE_PIN G17   IOSTANDARD LVCMOS33 } [get_ports { JA[4] }]; #IO_L18N_T2_A23_15 Sch=ja[4]
@@ -113,7 +113,7 @@ set_property -dict { PACKAGE_PIN C17   IOSTANDARD LVCMOS33 } [get_ports { MORS }
 #set_property -dict { PACKAGE_PIN E6    IOSTANDARD LVCMOS33 } [get_ports { JC[10] }]; #IO_L5P_T0_AD13P_35 Sch=jc[10]
 
 ##Pmod Header JD
-#set_property -dict { PACKAGE_PIN H4    IOSTANDARD LVCMOS33 } [get_ports { JD[1] }]; #IO_L21N_T3_DQS_35 Sch=jd[1]
+set_property -dict { PACKAGE_PIN H4    IOSTANDARD LVCMOS33 } [get_ports { MORS }]; #IO_L21N_T3_DQS_35 Sch=jd[1]
 #set_property -dict { PACKAGE_PIN H1    IOSTANDARD LVCMOS33 } [get_ports { JD[2] }]; #IO_L17P_T2_35 Sch=jd[2]
 #set_property -dict { PACKAGE_PIN G1    IOSTANDARD LVCMOS33 } [get_ports { JD[3] }]; #IO_L17N_T2_35 Sch=jd[3]
 #set_property -dict { PACKAGE_PIN G3    IOSTANDARD LVCMOS33 } [get_ports { JD[4] }]; #IO_L20N_T3_35 Sch=jd[4]
