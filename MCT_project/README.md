@@ -24,7 +24,7 @@ Simulation of the TOP module, dot representd by **.-.-.-**
 ### Instructions
 The MCT is operated by 5 switches on far right and the middle BTNC button.
 
-User inputs desired letter in 5 bit binary form by toggling switches (up- 1, down- 0) and then confirms by pressing the BTNC button which submits the input, after that the RGB led should start blinking depending on the input. BTNC button also works as a reset button, if user holds the button, the led gets turned off. Morse signal is also transmitted by pin 1 of JD. All buttons/ switches/ pins are located on the fpga as shown on the image below.
+User inputs desired letter in 5 bit binary form by toggling switches (up- 1, down- 0) and then confirms by pressing the BTNC button which submits the input, after that the RGB led should start blinking depending on the input. BTNC button also works as a reset button, if user holds the button, the led gets turned off. Morse signal is also transmitted by pin 1 of JD Pmod port. All buttons/ switches/ pins are located on the fpga as shown on the image below.
 
 ![](nexys_ui.png)
 
