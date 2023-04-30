@@ -1,8 +1,8 @@
 # Morse Code Transmitter
 ### Team members & responsibilities 
-Daniel Graf - mct, top
+Daniel Graf - mct, tb
 
-Lukáš Lipenský - QA, tb
+Lukáš Lipenský - top, qa
 
 ### Theoretical description and explanation
 
