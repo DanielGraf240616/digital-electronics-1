@@ -17,7 +17,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity MorseCodeTransmitter is
 generic(
 ClockFrequency : integer := 100e6;            --FPGAs 100 MHz clock signal
-SimulationDevider : integer :=1000000         --Deviding cycles for simulation purposes
+SimulationDevider : integer :=1               --Deviding cycles for simulation purposes
 );
 Port (
     clk : in std_logic;
