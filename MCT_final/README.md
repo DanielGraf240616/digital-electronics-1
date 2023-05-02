@@ -8,6 +8,7 @@ Lukáš Lipenský - top, qa
 Morse code is a worldwide form of communication where letters, numbers or other characters are represented by a sequence of symbols, dots and dashes. First what we had to come up with was the idea how to input the characters, which in our case was pretty easy as we simply used 5 switches which represent our 5-bit value of letter (see the chart below). After that we needed to figure out how to represent such sequences with signals, for that we chose to go with timings. As it is globally known, dot shall be represented by 1 cycle, dash by 3 cycles. Knowing that we had made all possible sequences and needed to figure our how to output the sequences(signals). We chose to output the morse code sequence in a visual form as a blinking LED and in a signal form -pmod pin.
 
 ### Hardware description of demo application
+User input is done by selecting binary value on switches `SW(0-4)` and confirmed by pressing select/reset `BTNC` button. Output signal splits to `RGB 16 G` LED and `JD `pin.
 MCT schematic:
 ![](MCT_schematic.jpg)
 
@@ -30,7 +31,7 @@ Simulation of the TOP module, dot representd by **.-.-.-**
 ### Instructions
 The MCT is operated by 5 switches on far right and the middle BTNC button.
 
-User inputs desired letter in 5 bit binary form by toggling switches (up- 1, down- 0) and then confirms by pressing the BTNC button which submits the input, after that the RGB led should start blinking depending on the input.  Morse signal is also transmitted by pin 1 of JD Pmod port.  BTNC button also works as a reset button, if user holds the button, the led gets turned off and the pin stops transmitting the morse signal. All buttons/ switches/ pins are located on the fpga as shown on the image below.
+User inputs desired letter in 5 bit binary form by toggling switches `SW `(up- 1, down- 0) and then confirms by pressing the `BTNC` button which submits the input, after that the RGB led should start blinking depending on the input.  Morse signal is also transmitted by pin 1 of `JD` Pmod port. `BTNC` button also works as a reset button, if user holds the button, the led gets turned off and the pin stops transmitting the morse signal. All buttons/ switches/ pins are located on the fpga as shown on the image below.
 
 ![](nexys_ui.png)
 
