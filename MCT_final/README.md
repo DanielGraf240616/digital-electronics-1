@@ -8,6 +8,8 @@ Lukáš Lipenský - top, qa
 Morse code is a worldwide form of communication where letters, numbers or other characters are represented by a sequence of symbols, dots and dashes. First what we had to come up with was the idea how to input the characters, which in our case was pretty easy as we simply used 5 switches which represent our 5-bit value of letter (see the chart below). After that we needed to figure out how to represent such sequences with signals, for that we chose to go with timings. As it is globally known, dot shall be represented by 1 cycle, dash by 3 cycles. Knowing that we had made all possible sequences and needed to figure our how to output the sequences(signals). We chose to output the morse code sequence in a visual form as a blinking LED and in a signal form -pmod pin.
 
 ### Hardware description of demo application
+MCT schematic:
+![](MCT_schematic.jpg)
 
 ### Software description
 The core of the program is based all around the 100 MHz clock signal of the FPGA. We created a variable called ticks which helped us with the timing of each symbol. With each rising edge peak the tick variable increments by 1, by this we can measure the time (or the tick value) and turn on(1) and off(0) the LED/ morse signal.
