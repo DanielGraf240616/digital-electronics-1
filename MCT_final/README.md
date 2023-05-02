@@ -9,6 +9,7 @@ Morse code is a worldwide form of communication where letters, numbers or other 
 
 ### Hardware description of demo application
 User input is done by selecting binary value on switches `SW(0-4)` and confirmed by pressing select/reset `BTNC` button. Output signal splits to `RGB 16 G` LED and `JD `pin.
+
 MCT schematic:
 ![](MCT_schematic.jpg)
 
