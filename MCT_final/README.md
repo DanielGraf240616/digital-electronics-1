@@ -12,7 +12,7 @@ MCT schematic:
 ![](MCT_schematic.jpg)
 
 ### Software description
-The core of the program is based all around the 100 MHz clock signal `CLK100MHZ` of the FPGA. We created a variable called ticks which helped us with the timing of each symbol. With each rising edge peak the tick variable increments by 1, by this we can measure the time (or the tick value) and turn on(1) and off(0) the LED/ morse signal.
+The core of the program is based all around the 100 MHz clock signal `CLK100MHZ` of the FPGA. We created a variable called ticks which helped us with the timing of each symbol. With each rising edge the tick variable increments by 1, by this we can measure the time (or the tick value) and turn on(1) and off(0) the LED/ morse signal.
 Lets define term "cycle". One cycle means a period of time where the (tick=clock frequency)/3. Cycles like this are probably the most convenient way how to make simple morse code transmitter. This one cycle is representing dot in our case for example, 3 such cycles represent a dash and the end of a letter is also represented by 3 cycles.
 
 Flowchart:
