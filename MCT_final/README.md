@@ -18,7 +18,7 @@ The core of the program is based all around the 100 MHz clock signal of the FPGA
 Lets define term "cycle". One cycle means a period of time where the (tick=clock frequency)/3. Cycles like this are probably the most conviniet way how to make morse code transmitter. This one cycle is representing dot in our case for example, 3 such cycles represent a dash and the end of a letter is also represented by 3 cycles.
 
 Flowchart:
-![](Flowchart.jpg)
+![](Flowchart.png)
 
 [Source files](https://github.com/DanielGraf240616/digital-electronics-1/tree/main/MCT_project/mct_de1/mct/mct.srcs/sources_1/new)
 [Testbench files](https://github.com/DanielGraf240616/digital-electronics-1/tree/main/MCT_project/mct_de1/mct/mct.srcs/sim_1/new)
