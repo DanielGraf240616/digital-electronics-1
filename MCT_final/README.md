@@ -17,6 +17,9 @@ MCT schematic:
 The core of the program is based all around the 100 MHz clock signal of the FPGA. We created a variable called ticks which helped us with the timing of each symbol. With each rising edge peak the tick variable increments by 1, by this we can measure the time (or the tick value) and turn on(1) and off(0) the LED/ morse signal.
 Lets define term "cycle". One cycle means a period of time where the (tick=clock frequency)/3. Cycles like this are probably the most conviniet way how to make morse code transmitter. This one cycle is representing dot in our case for example, 3 such cycles represent a dash and the end of a letter is also represented by 3 cycles.
 
+Flowchart:
+![](Flowchart.jpg)
+
 [Source files](https://github.com/DanielGraf240616/digital-electronics-1/tree/main/MCT_project/mct_de1/mct/mct.srcs/sources_1/new)
 [Testbench files](https://github.com/DanielGraf240616/digital-electronics-1/tree/main/MCT_project/mct_de1/mct/mct.srcs/sim_1/new)
 ### Component(s) simulations
@@ -30,7 +33,7 @@ Simulation of the TOP module, letter A representd by **.-**
 Simulation of the TOP module, dot representd by **.-.-.-**
 ![](top_tecka.png)
 ### Instructions
-The MCT is operated by 5 switches on far right and the middle BTNC button.
+The MCT is operated by 5 switches `SW(0-4)` on far right and the middle `BTNC` button.
 
 User inputs desired letter in 5 bit binary form by toggling switches `SW `(up- 1, down- 0) and then confirms by pressing the `BTNC` button which submits the input, after that the RGB led should start blinking depending on the input.  Morse signal is also transmitted by pin 1 of `JD` Pmod port. `BTNC` button also works as a reset button, if user holds the button, the led gets turned off and the pin stops transmitting the morse signal. All buttons/ switches/ pins are located on the fpga as shown on the image below.
 
