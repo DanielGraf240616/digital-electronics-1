@@ -35,7 +35,7 @@ entity Top is
     );                     
 end Top;
 
-architecture Behavioral of Top is
+  architecture Behavioral of Top is
 signal sig_morse : std_logic;
 begin
 MCT : entity work.MorseCodeTransmitter
